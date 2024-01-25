@@ -3,6 +3,9 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Container from '@components/Container'
 
+const solanaWeb3 = require("@solana/web3.js");
+console.log(solanaWeb3);
+
 export default function Home() {
   var title = "Todo List";
   return (
